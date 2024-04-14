@@ -1,5 +1,5 @@
 # GithubforMe
 โปรเจคของผมเอง ที่ฝึกฝนพัฒนาด้านการเขียนโปรแกรม !
 
-# Hello World
-สวัสดี โลก
+# Project Basic Javascript 
+โปรแกรมแปลงสกุลเงินต่างประเทศ ด้วย Javascript
