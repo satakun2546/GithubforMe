@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าหลัก</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+   
+    <div class="container">
+        
+        <button onclick="opemPopup()"> My Project</button>
+    </div>
+   
+    <div id="popup" class="popup-content">
+        <h2>โปรแกรมแปลงเงินต่างประเทศ</h2>
+        <label for="amount">จำนวนเงิน</label>
+            <input type="number" id="amount" name="amount" min="0" required><br><br>
+            <label for="currency">สกุลเงิน</label>
+            <select id="currency" name="currency" required>
+                <option value="USD">ดอลลาร์สหรัฐ</option>
+                <option value="EUR">ยูโร</option>
+                <option value="JPY">เยนญี่ปุ่น</option>
+                <option value="CNY">หยวนจีน</option>
+            </select><br>
+           <br>
+            <center><button class="convert" onclick="convert()">แปลง</button></center><br>
+            <center><div class="result" id="result"></div></center>
+        <button class="close" onclick="closePopup()">ปิด</button>
+      </div>
+    <script src="app.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
